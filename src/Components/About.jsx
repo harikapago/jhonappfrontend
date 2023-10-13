@@ -5,16 +5,14 @@ import image3 from '../assets/ex.png';
 import video1 from "../assets/tv4.jpg";
 import img2 from "../assets/tv1.jpg";
 import img3 from "../assets/tv11.jpg";
-import img4 from "../assets/tv7.jpg";
-import img5 from "../assets/tv8.jpg";
-import img6 from "../assets/tv9.jpg";
+
 // Import your image
 
 import "./styles/about.css";
 
 const About = () => {
 
-  const images = [video1, img2, img3,img4,img5,img6]; // Replace video1, video2, video3 with your image URLs
+  const images = [video1, img2, img3]; // Replace video1, video2, video3 with your image URLs
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const interval = 2000; // 2 seconds
 
