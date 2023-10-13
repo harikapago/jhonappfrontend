@@ -17,3 +17,21 @@ margin: 0;
 padding: 20px;
 
 }
+
+.btn1 {
+    background-color: #972239;
+    background-image: linear-gradient(315deg, #972239 0%, #db6885 74%);
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+    /* You can adjust the duration of the transition as needed. */
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    background-color: #db6885;
+    transform: scale(1.1); /* Zoom in by 10% */
+    border-color: black;
+  }
+  

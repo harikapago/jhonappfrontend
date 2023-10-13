@@ -11,7 +11,7 @@ import bt4 from "../assets/teams/bt4.png";
 
 const Contact = () => {
   return (
-    <div className="container-fluid " style={{ backgroundColor: "black" }}>
+    <div id="contact-us" className="container-fluid " style={{ backgroundColor: "black" }}>
       <div
         className="teambg"
         style={{

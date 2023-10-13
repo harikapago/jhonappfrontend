@@ -1,19 +1,44 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import image1 from '../assets/team.png';
 import image2 from '../assets/hand.png'; 
 import image3 from '../assets/ex.png'; 
 import video1 from "../assets/tv4.jpg";
+import img2 from "../assets/tv1.jpg";
+import img3 from "../assets/tv11.jpg";
+import img4 from "../assets/tv7.jpg";
+import img5 from "../assets/tv8.jpg";
+import img6 from "../assets/tv9.jpg";
 // Import your image
 
 import "./styles/about.css";
 
 const About = () => {
+
+  const images = [video1, img2, img3,img4,img5,img6]; // Replace video1, video2, video3 with your image URLs
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const interval = 2000; // 2 seconds
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      // Calculate the index of the next image, looping back to the first if necessary
+      const nextIndex = (currentImageIndex + 1) % images.length;
+      setCurrentImageIndex(nextIndex);
+    }, interval);
+
+    return () => {
+      // Cleanup the timer when the component unmounts
+      clearInterval(timer);
+    };
+  }, [currentImageIndex, images]);
+
   return (
-    <div  id="AboutUs" >
-    <div className='aboutdiv' style={{padding:"15px",marginTop:"4rem",width:"100%"}}>
-      <div  style={{padding:"1rem"}}>
-        <h5>About Us</h5>
-        <h3>Best TV Repair Strore In Rajahmundry</h3>
+    <div  id="AboutUs" style={{padding:"15px",marginTop:"4rem",width:"100%"}}>
+      <h2 style={{textAlign:"center"}}>About Us</h2>
+        <h4 style={{textAlign:"center"}}>Best TV Repair Strore In Rajahmundry</h4>
+    <div className='row' style={{padding:"1rem"}} >
+    
+      <div className='col-12 col-md-7' style={{padding:"0rem"}}>
+       
         <p>At Multitech Electronics, we are your trusted destination for TV repair services. 
             With a team of skilled technicians and a commitment to excellence, we have been providing 
             top-notch TV repair solutions for <span style={{color:"blue",fontWeight:"bold"}}>Rajahmundry</span> and the surrounding areas. 
@@ -27,13 +52,13 @@ const About = () => {
                 about the quality of your viewing experience. Let us help you get back to enjoying your 
                 favorite shows and movies, one repair at a time.</p>
              </div>
-      <div >
-        <img src={video1} alt="Image" className="imgabout" />
+      <div className='col-12 col-md-5' >
+      <img src={images[currentImageIndex]} alt="Image" className="imgabout" />
        
       </div>
       
     </div>
-    <h3 style={{textAlign:"center"}}>Why choose us?</h3>
+    <h4 className='aboutdiv1' style={{textAlign:"center"}}>Why choose us?</h4>
     <div className='aboutdiv1 ' style={{}} >
         
         <div className=' aboutsec2' style={{textAlign:"center"}}> 

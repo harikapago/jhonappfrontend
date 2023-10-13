@@ -8,6 +8,8 @@ import Brands from './Components/Brands'
 import Run from './Components/Run'
 import Testimonials from './Components/Testimonials'
 import Form from './Components/Form'
+import Serv from './Components/Serv'
+import Visit from './Components/Visit'
 
 const App = () => {
   return (
@@ -15,11 +17,13 @@ const App = () => {
      <Navbar/>
      <Topse/>
      <About/>
-     <Services/>
+     <Serv/>
+     
      <Brands/>
      <Run/>
      <Form/>
      <Testimonials/>
+     <Visit/>
      <Contact/>
     </div>
   )

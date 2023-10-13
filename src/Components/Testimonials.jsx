@@ -67,7 +67,7 @@ const data = [
 const Testimonials = () => {
   return (
     
-    <div style={{padding:"15px",marginTop:"4rem",width:"100%"}}>
+    <div id="reviews" style={{padding:"15px",marginTop:"4rem",width:"100%"}}>
         
       <div
         className="testbg2"

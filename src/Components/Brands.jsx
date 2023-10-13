@@ -12,7 +12,7 @@ const Brands = () => {
   ];
 
   return (
-    <div style={{padding:"15px",marginTop:"4rem",width:"100%",textAlign:"center"}}>
+    <div id="brands" style={{padding:"15px",marginTop:"4rem",width:"100%",textAlign:"center"}}>
         <h2 style={{fontWeight:"bold"}}>Our Brands</h2>
         <div className='row' style={{justifyContent:"center",alignItems:"center",}}>
    <div className='col-12 col-md-6 '>

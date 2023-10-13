@@ -36,7 +36,7 @@ const Topse = () => {
 
       <h1>One Stop Solution For All Your TV Problems</h1>
       <p>Experience TV repair like never before with our Service, bringing your entertainment back to life.</p>
-      <button className='btn btn-primary'>Call : 7995716742</button>
+      <button className='btn btn1'>Call Now : 7995716742</button>
   
         </div>
         

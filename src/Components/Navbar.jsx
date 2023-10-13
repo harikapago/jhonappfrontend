@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.png";
 import './styles/navbar.css'; // You will create this CSS file for styling
 import Topse from './Topse';
 
@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{position:"absolute",zIndex:100,width:"98.6vw"}} >
     <div className="container-fluid">
       <a className="" href="/" style={{color:"black"}}>
-        <img src={logo} alt="logo" style={{ width: "3rem" }} />
+        <img src={logo} alt="logo" style={{ width: "3.2rem",height:"2rem",borderRadius:"10px" }} />
         <span style={{fontSize:"20px",fontWeight:"bold"}}>MultiTech-Electronics</span>
       </a>
       <button
@@ -43,22 +43,22 @@ const Navbar = () => {
             <a className="nav-link" href="#AboutUs" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>About Us</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>Services</a>
+            <a className="nav-link" href="#our-services" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>Services</a>
           </li>
           
           <li className="nav-item">
-            <a className="nav-link" href="#partners" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>Brands</a>
+            <a className="nav-link" href="#brands" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>Brands</a>
           </li>
-          {/* <li className="nav-item">
-            <a className="nav-link" href="/careers" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>Careers</a>
-          </li> */}
+          <li className="nav-item">
+            <a className="nav-link" href="#reviews" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>Reviews</a>
+          </li>
          
           <li className="nav-item">
-            <a className="nav-link" href="#" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>Contact Us</a>
+            <a className="nav-link" href="#contact-us" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>Contact Us</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>
-             <button className='btn btn-primary' style={{fontWeight:"bold"}}>Call now: 7995716742</button>
+             <button className='btn btn1'>Call Now : 7995716742</button>
             </a>
           </li>
         </ul>

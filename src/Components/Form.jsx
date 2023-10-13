@@ -10,7 +10,8 @@ const Form = () => {
     message: "",
   });
 
-  
+  const [message, setMessage] = useState(""); // Add a state variable for messages
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -19,35 +20,33 @@ const Form = () => {
     }));
   };
 
- 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     try {
-      const response = await fetch('http://localhost:3000/send-email', {
-        method: 'POST',
+      const response = await fetch("https://jhonapiforemail.onrender.com/send-email", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
 
       if (response.status === 200) {
-        setMessage('Email sent successfully.');
+        setMessage("Email sent successfully.");
       } else {
-        setMessage('Error: Email could not be sent.');
+        setMessage("Error: Email could not be sent.");
       }
-
 
       setFormData({
         name: "",
         phone: "",
         email: "",
         message: "",
-})
+      });
     } catch (error) {
       console.error(error);
-      setMessage('Error: Something went wrong.');
+      setMessage("Error: Something went wrong.");
     }
   };
 
@@ -100,7 +99,7 @@ const Form = () => {
             <form className="row g-3"   onSubmit={handleSubmit}>
               <div className="col-6">
                 <label
-                  for="name"
+                  htmlFor="name"
                   className="form-label"
                   style={{
                     margin: "0",
@@ -128,7 +127,7 @@ const Form = () => {
               </div>
               <div className="col-6">
                 <label
-                  for="phone"
+                  htmlFor="phone"
                   className="form-label"
                   style={{
                     margin: "0",
@@ -155,7 +154,7 @@ const Form = () => {
               </div>
               <div className="col-12">
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="form-label"
                   style={{
                     margin: "0",
@@ -183,7 +182,7 @@ const Form = () => {
               </div>
               <div className="col-12">
                 <label
-                  for="msg"
+                  htmlFor="msg"
                   className="form-label"
                   style={{
                     margin: "0",
@@ -229,9 +228,16 @@ const Form = () => {
                 </button>
               </div>
             </form>
+            {message && (
+        <div style={{ marginTop: "1rem", color: message.includes("Error") ? "white" : "white" }}>
+          {message}
+        </div>
+      )}
           </div>
         </div>
       </div>
+
+     
     </div>
   );
 };
