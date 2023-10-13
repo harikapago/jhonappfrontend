@@ -1,0 +1,16 @@
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid columns */
+    grid-gap: 20px; /* Space between items */
+  }
+  
+  .brand-item {
+    border: 1px solid #ddd; /* Border for each item */
+    padding: 10px; /* Padding for each item */
+    text-align: center;
+  }
+  
+  .brand-item img {
+    max-width: 100%; /* Ensure images do not overflow their containers */
+  }
+  

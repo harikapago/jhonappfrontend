@@ -1,0 +1,54 @@
+.formbg{
+    background-color: #972239;
+background-image: linear-gradient(315deg, #972239 0%, #db6885 74%);
+}
+
+
+
+
+.modalbg{
+    /* background-image: url("../../assets/.gif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+  
+
+
+  /* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .custom-modal-dialog {
+        width: 65%; 
+        margin: 1.75rem auto;
+      }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .custom-modal-dialog {
+        width: 53%; 
+        margin: 1.75rem auto;
+      }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .custom-modal-dialog {
+        width: 40%; 
+        margin: 1.75rem auto;
+      }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+    .custom-modal-dialog {
+        width: 30%; 
+        margin: 1.75rem auto;
+      }
+}
+ 
+ 

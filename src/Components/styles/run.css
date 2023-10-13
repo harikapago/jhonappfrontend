@@ -1,0 +1,56 @@
+
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid columns */
+    grid-gap: 20px; /* Space between items */
+  }
+  
+  .stat {
+    /* border: 1px solid #ddd;  */
+    padding: 10px; /* Padding for each item */
+    text-align: center;
+  }
+  
+ 
+
+  /* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+     
+      .stats-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid columns */
+        grid-gap: 20px; /* Space between items */
+      }
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .stats-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); /* Responsive grid columns */
+        grid-gap: 20px; /* Space between items */
+      }
+    }
+ 
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .stats-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid columns */
+        grid-gap: 20px; /* Space between items */
+      }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+    .stats-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); /* Responsive grid columns */
+        grid-gap: 20px; /* Space between items */
+      }
+   
+}
+

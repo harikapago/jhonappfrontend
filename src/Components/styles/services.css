@@ -1,0 +1,124 @@
+.servicebtn{
+    
+    color: antiquewhite;
+    list-style: none;
+    font-weight: bold;
+    margin: 10px;
+   
+    text-align: center;
+    
+    
+    border-radius: 5px;
+    
+    cursor: pointer;
+    background-color: #972239;
+background-image: linear-gradient(315deg, #972239 0%, #db6885 74%);
+}
+
+
+.serviceimg{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+   .ser1{
+    width: 50%;
+   }
+   .ser2{
+    width: 50%;
+   }
+   .serviceimg{
+    height: 10rem;
+    width: 13rem;
+   }
+   .serdes{
+    max-height: 7rem;
+    overflow: auto;
+   }
+   .servicebtn{
+    font-size: 12px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 80%;
+    height: 3rem;
+   }
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .ser1{
+        width: 50%;
+       }
+       .ser2{
+        width: 50%;
+       }
+       .serviceimg{
+        height: 9rem;
+        width: 20rem;
+       }
+       .servicebtn{
+        font-size: 14px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 70%;
+        height: 3rem;
+       }
+    }
+ 
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .ser1{
+        width: 30%;
+       }
+       .ser2{
+        width: 70%;
+       }
+       .serviceimg{
+        height: 13rem;
+        width: 25rem;
+       }
+       .servicebtn{
+        font-size: 16px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 70%;
+        height: 3rem;
+       }
+ 
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+    .ser1{
+        width: 30%;
+       }
+       .ser2{
+        width: 70%;
+       }
+       .serviceimg{
+        height: 20rem;
+        width: 35rem;
+       }
+       .servicebtn{
+        font-size: 16px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 60%;
+        height: 3rem;
+       }
+   
+   
+}
+
+.servbtn{
+    background-color: #972239;
+    background-image: linear-gradient(315deg, #972239 0%, #db6885 74%);
+       
+}
+
+.selected{
+    box-shadow: 2px 2px 2px 2px #131212;
+}
