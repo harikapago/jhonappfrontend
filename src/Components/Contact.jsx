@@ -116,7 +116,7 @@ const Contact = () => {
                   alt="img"
                   style={{ height: "1rem", marginRight: "0.3rem" }}
                 />
-             <a href="tel:7995716742"> <p style={{fontSize:"0.7rem"}}>7008812287, 9640597016</p> </a>  
+             <a href="tel:7995716742"> <p style={{fontSize:"0.7rem"}}>7995716742, 9640597016</p> </a>  
               </div>
             </div>
            

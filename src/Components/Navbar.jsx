@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import logo from "../assets/log.png";
+
 import './styles/navbar.css'; // You will create this CSS file for styling
 import Topse from './Topse';
 import as from"../assets/as.gif";

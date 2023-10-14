@@ -4,8 +4,9 @@ import img2 from "../assets/tv2.jpg";
 import img3 from "../assets/tv3.jpg";
 import img4 from "../assets/tv4.jpg";
 import img5 from "../assets/tv5.jpg";
+import img6 from "../assets/tv45.jpg";
 import s1 from "../assets/s1.png";
-import s2 from  "../assets/s2.png";
+import s2 from  "../assets/s22.png";
 import s3 from "../assets/s3.png";
 import s4 from  "../assets/s4.png";
 
@@ -16,7 +17,7 @@ import Run from './Run';
 const Topse = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const backgroundImageImages = [
-    img1, img2, img3, img4, img5
+    img1, img2, img3, img4, img5,img6
   ];
 
   useEffect(() => {
@@ -57,9 +58,16 @@ const Topse = () => {
         </div> 
         <div className='col-12 col-md-3' style={{textAlign:"center",padding:"15px"}}> 
         <img style={{width:"80px",height:"80px"}} 
+        src={s4}/>
+        <h4>Genuine Spares</h4>
+        <p>We use original spare parts only and provide invoice with Warranty.</p>
+        
+        </div> 
+        <div className='col-12 col-md-3' style={{textAlign:"center",padding:"15px"}}> 
+        <img style={{width:"80px",height:"80px"}} 
         src={s2}/>
-        <h4>All Brands Service</h4>
-        <p>We cover all brands, ensuring your devices are in good hands, no matter the make.</p>
+        <h4>Trusted Service</h4>
+        <p>We cover all brands, ensuring your devices are in Trusted Service, no matter the make.</p>
         
         </div> 
         <div className='col-12 col-md-3' style={{textAlign:"center",padding:"15px"}}> 
@@ -69,13 +77,7 @@ const Topse = () => {
         <p>Our experts are certified professionals with the knowledge to fix it right.</p>
         
         </div> 
-        <div className='col-12 col-md-3' style={{textAlign:"center",padding:"15px"}}> 
-        <img style={{width:"80px",height:"80px"}} 
-        src={s4}/>
-        <h4>Genuine Spares</h4>
-        <p>We use original spare parts only and provide invoice with Warranty</p>
-        
-        </div> 
+       
         
 
     </div>
