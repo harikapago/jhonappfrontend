@@ -7,12 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import pic1 from "../assets/testimonials/man1.png"; 
-import pic2 from "../assets/testimonials/man2.png";
-import pic3 from "../assets/testimonials/nam3.jpg";
-import pic4 from "../assets/testimonials/nam4.jpg";
-import pic5 from "../assets/testimonials/nam5.jpg";
-import pic6 from "../assets/testimonials/nam6.jpg";
 import top from "../assets/testimonials/top.gif";
 
 
@@ -20,47 +14,42 @@ SwiperCore.use([Autoplay]);
 
 const data = [
   {
-    name: "Rajath",
-    designation: "Brigade Group, Pune",
+    name: "A Shyam Kiran",
+    designation: "Rajamundry",
     feedback:
-      "The Essential product from VRNow helped us tremendously in  of the project to our clients. Essential product was delivered to us in 7 days and we are happy with the team.",
-    img: pic1,
+      "Visited for Screen issue for my 9 years old 46 inch 3d sony TV... understood the problem very well  and had resolved it in couple of days... Authorised service center suggested me to change the screen that could have charged me 33k... but i got that fixed under 5k.. probably very skilled and budget friendly Electronics repair shop in Rajahmundry",
+      
   },
 
   {
-    name: "Sanjay",
-    designation: "Aadharsh Developers, Bengaluru",
+    name: "Chiranjeevi Mallarapu",
+    designation: "Rjahmundry",
     feedback:
-      "Our clients were truly impressed by the location insights brought to life through VRNow's Essential product. The quick 7-day delivery showcased the team's efficiency and dedication.",
-    img: pic2,
+      "Very good service and fast service.. Problem solved very fast"
   },
   {
-    name: "Monica",
-    designation: "Neminath Group, Hyderabad",
+    name: "Naveen Kumar Talla",
+    designation: "Rajahmundry",
     feedback:
-      "VRNow's metaverse is a playground of endless possibilities, where digital landscapes come to life, connecting people, ideas, and experiences in ways never thought possible.",
-    img: pic3,
+      "My TV is Sony 43 my tv screen prbm like  updown picture i went to authorizers service centre and he told approximately 18000/- and i went to this shop and told about the problem , wit in two days repaired and his charges including service charge only 5500/- im really shocked.. Good Service value for money."
   },
   {
-    name: "A S Khan",
-    designation: "MICL Group, Bengaluru",
+    name: "Kasim Basha",
+    designation: " Rajahmundry",
     feedback:
-      "We have Immersed in the enchanting metaverse meticulously shaped by VRNow, where every pixel, interaction, and connection is a brushstroke on the canvas of a digital.",
-    img: pic4,
+      "Best TV repair in Rajahmundry,I had a persistent sound issue with my TV, and this repair service not only fixed the problem promptly but also provided excellent customer support throughout. The sound quality is now better than ever, and I'm thoroughly satisfied with their work."
   },
   {
-    name: "Santhoshi",
-    designation: "Rustomjee Developers, Bengaluru",
+    name: "Lavanya",
+    designation: "Rajahmundry",
     feedback:
-      "With VRNow's 3D products, Our ideas ordinary becomes extraordinary. Delved into an ecosystem of limitless possibilities, where visual storytelling takes on a new dimension. ",
-    img: pic5,
+      "I had an issue with my OLED TV screen, and I'm extremely impressed with the repair service I received. They were quick to diagnose the problem and expertly repaired my TV, restoring it to its pristine state. The picture quality is now even better than before. I highly recommend their OLED TV repair services."
   },
   {
-    name: "Shishir Gupta",
-    designation: "Starwing Developers, Pune",
+    name: "Ramesh P",
+    designation: "Rajahmundry",
     feedback:
-      "We owe our success in presenting location advantages to VRNow's Essential product.Exceptional teamwork have left a lasting positive impression, making VRNow our go-to choice.",
-    img: pic6,
+      "I was worried when my plasma TV's motherboard malfunctioned, but this shop came to the rescue. Their technicians demonstrated exceptional skill and professionalism throughout the repair process. They not only fixed the issue promptly but also explained the problem and the repair steps clearly. My TV now works flawlessly, and I'm extremely satisfied with the top-notch service they provided."
   },
 ];
 
@@ -82,7 +71,7 @@ const Testimonials = () => {
         }}
       >
         <div style={{ textAlign: "center" }}>
-          <h2 style={{fontWeight:"bold"}}>Testimonials</h2>
+          <h2 style={{fontWeight:"bold"}}>Customer Reviews</h2>
           <h5 style={{fontWeight:"500"}}>See how others are feeling about us</h5>
         </div>
         <div className="container" style={{color:"white"}}>
@@ -147,13 +136,13 @@ const Testimonials = () => {
                       {item.feedback}
                     </p>
                     <div style={{ display: "flex", paddingLeft: "1rem" }}>
-                      <img
+                      {/* <img
                         src={item.img}
                         alt="img"
                         className="testimg"
                         style={{borderRadius:"50px"}}
                         // style={{ width: "4.5rem", height: "4.5rem" }}
-                      />
+                      /> */}
                       <div
                         style={{
                           display: "flex",

@@ -4,6 +4,11 @@ import img2 from "../assets/tv2.jpg";
 import img3 from "../assets/tv3.jpg";
 import img4 from "../assets/tv4.jpg";
 import img5 from "../assets/tv5.jpg";
+import s1 from "../assets/s1.png";
+import s2 from  "../assets/s2.png";
+import s3 from "../assets/s3.png";
+import s4 from  "../assets/s4.png";
+
 
 import "./styles/topse.css";
 import Run from './Run';
@@ -34,33 +39,44 @@ const Topse = () => {
     <div style={{backgroundImage: `url(${backgroundImageImages[currentImageIndex]})`,color:"white",}} className='topdiv'>
       <div style={{backgroundColor:"rgba(0, 0, 0, 0.5)",padding:"2rem",height:"100%",width:"100%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
 
-      <h1>One Stop Solution For All Your TV Problems</h1>
-      <p>Experience TV repair like never before with our Service, bringing your entertainment back to life.</p>
-      <button className='btn btn1'>Call Now : 7995716742</button>
-  
+      <h1> One Stop Solution For All Your TV Problems</h1>
+      <p>The <span style={{color:"blue",fontWeight:"bold",fontSize:"23px"}}>No.1</span>  TV repair Service in <span style={{color:"blue",fontWeight:"bold",fontSize:"23px"}}> Rajahmundry</span>,  bringing your entertainment back to life.</p>
+      <a href="tel:7995716742" className='btn btn1'>Call Now : 7995716742 </a>
+
         </div>
         
         
     </div>
     <div className='row topsec2' >
-        <div className='col-12 col-md-4' style={{textAlign:"center",padding:"15px"}}> 
-        <img style={{width:"80px",height:"80px"}} src="https://static.thenounproject.com/png/1877613-200.png"/>
-        <h3>Doorstep Service</h3>
+        <div className='col-12 col-md-3' style={{textAlign:"center",padding:"15px"}}> 
+        <img style={{width:"80px",height:"80px"}} 
+        src={s1}/>
+        <h4>Doorstep Service</h4>
         <p>Bringing expertise to your doorstep for a hassle-free experience, making life easier.</p>
         
         </div> 
-        <div className='col-12 col-md-4' style={{textAlign:"center",padding:"15px"}}> 
-        <img style={{width:"80px",height:"80px"}} src="https://www.pngkey.com/png/full/188-1888297_certificate-comments-certificate-icon-png.png"/>
-        <h3>Certified Service Provider</h3>
-        <p>Our experts are certified professionals with the knowledge to fix it right.</p>
-        
-        </div> 
-        <div className='col-12 col-md-4' style={{textAlign:"center",padding:"15px"}}> 
-        <img style={{width:"80px",height:"80px"}} src="https://icon-library.com/images/branding_brand_trust_trusted-512.png"/>
-        <h3>All Brand Service</h3>
+        <div className='col-12 col-md-3' style={{textAlign:"center",padding:"15px"}}> 
+        <img style={{width:"80px",height:"80px"}} 
+        src={s2}/>
+        <h4>All Brands Service</h4>
         <p>We cover all brands, ensuring your devices are in good hands, no matter the make.</p>
         
         </div> 
+        <div className='col-12 col-md-3' style={{textAlign:"center",padding:"15px"}}> 
+        <img style={{width:"80px",height:"80px"}} 
+         src={s3}/>
+        <h4>Certified Service Provider</h4>
+        <p>Our experts are certified professionals with the knowledge to fix it right.</p>
+        
+        </div> 
+        <div className='col-12 col-md-3' style={{textAlign:"center",padding:"15px"}}> 
+        <img style={{width:"80px",height:"80px"}} 
+        src={s4}/>
+        <h4>Genuine Spares</h4>
+        <p>We use original spare parts only and provide invoice with Warranty</p>
+        
+        </div> 
+        
 
     </div>
     </div>

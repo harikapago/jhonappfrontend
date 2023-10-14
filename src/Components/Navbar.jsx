@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
-import logo from "../assets/logo.png";
+import logo from "../assets/log.png";
 import './styles/navbar.css'; // You will create this CSS file for styling
 import Topse from './Topse';
+import as from"../assets/as.gif";
 
 const Navbar = () => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -12,8 +13,8 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{position:"fixed",zIndex:100,width:"100%"}} >
     <div className="container-fluid">
       <a className="" href="/" style={{color:"black"}}>
-        <img src={logo} alt="logo" style={{ width: "3.2rem",height:"2rem",borderRadius:"10px" }} />
-        <span style={{fontSize:"20px",fontWeight:"bold"}}>MultiTech-Electronics</span>
+        <img src={as} alt="logo" style={{ width: "3rem",height:"2.5rem",borderRadius:"150px" }} />
+        <span style={{fontSize:"20px",fontWeight:"bold"}}><span style={{color:"blue"}}>MultiTech</span>-Electronics</span>
       </a>
       <button
           className="navbar-toggler"
@@ -58,7 +59,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#" style={{ color: "black", fontWeight: "bold", marginRight: "1rem" }}>
-             <button className='btn btn1'>Call Now : 7995716742</button>
+            <a href="tel:7995716742" className='btn btn1'>Call Now : 7995716742</a>
             </a>
           </li>
         </ul>

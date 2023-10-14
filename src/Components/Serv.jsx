@@ -2,48 +2,46 @@
 import React from 'react';
 import './styles/serv.css';
 
-import image1 from '../assets/solutions/bg2.jpg';
-import image2 from '../assets/solutions/bg3.jpg';
-import image3 from '../assets/solutions/bg4.jpg';
-import image4 from '../assets/solutions/Bigdata.avif';
-import image5 from '../assets/solutions/bg6.jpg';
-import image6 from "../assets/solutions/bi.jpg";
-import image9 from "../assets/solutions/bg1.jpeg";
-import image8 from "../assets/solutions/ui.webp";
+import l1 from "../assets/l1.png";
+import l2 from "../assets/l2.jpg";
+import l3 from "../assets/l3.jpg";
+import l4 from "../assets/l4.jpg";
 
 const data = [
   {
     id: 1,
-    image: image1,
-    title: 'Title 1',
-    description: 'With a team of skilled technicians and a commitment to excellence, we have been providing top-notch TV repair solutions for Rajahmundry and the surrounding areas.',
+    image: l1,
+    title: ' LCD/LED TV Servicing',
+    description: 'We provide expert service and repairs for a wide range of TVs, including Plasma, LCD, QLED, OLED, and 4K models, ensuring your television operates at its best.',
   },
   {
     id: 2,
-    image: image2,
-    title: 'Title 2',
-    description: 'Description for Item 2',
+    image: l2,
+    title: 'Screen Replacement',
+    description: 'Flickering or flashing on the screen can be distracting and annoying. We offer expert screen replacement services for your TV, restoring crystal-clear visuals and enhancing your viewing experience.',
   },
   {
     id: 3,
-    image: image3,
-    title: 'Title 3',
-    description: 'Description for Item 3',
+    image: l3,
+    title: 'MotherBoard Repairs',
+    description: 'Frequent problem for motherboards is power surges. Our experienced technicians are dedicated to diagnosing and fixing motherboard issues, delivering top-quality results.',
   },
   {
     id: 4,
-    image: image4,
-    title: 'Title 1',
-    description: 'Description for Item 1',
+    image: l4,
+    title: 'Finding issues',
+    description: 'Typically we revolve any type of issues with picture quality, Audio Sync Issues, Remote Control Problems, Power and Startup Issues, functionality etc.We offer comprehensive maintenance and troubleshooting solutions.',
   },
   
 ];
 
+
+// We offer comprehensive maintenance and troubleshooting solutions to keep your high-quality display technology in optimal condition.
 function GridItem({ image, title, description }) {
   return (
     <div className="grid-item">
-      <img src={image} alt={title}  style={{height:"12rem",width:"100%"}}/>
-      <h2>{title}</h2>
+      <img src={image} alt={title}  style={{height:"14rem",width:"100%"}}/>
+      <h5 style={{width:"100%",marginTop:"10px"}}>{title}</h5>
       <p>{description}</p>
     </div>
   );

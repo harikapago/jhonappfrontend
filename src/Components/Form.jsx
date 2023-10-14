@@ -78,16 +78,14 @@ const Form = () => {
             }}
           >
             <div>
-              <h3 style={{fontSize:"120%"}}>Send us a Message</h3>
+              <h1 style={{fontSize:"150%"}}>Send us a Message</h1>
               <h5 style={{  marginTop: "3rem" ,fontSize:"90%",fontWeight:"500"}}>
-                If you are interested in our product and want a demo or have any
-                queries, please fill in the form, we will get in touch with you
-                soon.
+              Please feel free to contact us if you have any problems, and we will provide you with the best service.
               </h5>
               <p
                 style={{ margin: "0", fontSize: "95%", fontWeight: "bold" }}
               >
-                Contact Us: 7995716742
+                Contact Us: 7995716742, 9640597016
               </p>
               
             </div>
@@ -117,8 +115,8 @@ const Form = () => {
                   value={formData.name}
                   onChange={handleChange}
                   style={{
-                    backgroundColor: "black",
-                    color: "white",
+                    backgroundColor: "white",
+                    color: "black",
                     border: "0",
                     borderRadius: "5px",
                     margin: "0",
@@ -145,8 +143,8 @@ const Form = () => {
                   className="form-control"
                   id="phone"
                   style={{
-                    backgroundColor: "black",
-                    color: "white",
+                    backgroundColor: "white",
+                    color: "black",
                     border: "0",
                     borderRadius: "5px",
                   }}
@@ -173,8 +171,8 @@ const Form = () => {
                   id="email"
                   placeholder=""
                   style={{
-                    backgroundColor: "black",
-                    color: "white",
+                    backgroundColor: "white",
+                    color: "black",
                     border: "0",
                     borderRadius: "5px",
                   }}
@@ -203,8 +201,8 @@ const Form = () => {
                   id="msg"
                   placeholder=""
                   style={{
-                    backgroundColor: "black",
-                    color: "white",
+                    backgroundColor: "white",
+                    color: "black",
                     border: "0",
                     borderRadius: "5px",
                   }}
@@ -216,7 +214,7 @@ const Form = () => {
                   type="submit"
                   className="btn "
                   style={{
-                    backgroundColor: " black",
+                    backgroundColor: " blue",
                     borderRadius: "8px",
                     color: "white",
                      fontSize: "90%",

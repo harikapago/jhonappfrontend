@@ -9,7 +9,7 @@
   }
   
   .grid-item {
-    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px 2px rgb(103, 91, 170);
     padding: 20px;
     text-align: center;
   }
