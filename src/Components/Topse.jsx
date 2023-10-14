@@ -40,7 +40,7 @@ const Topse = () => {
       <div style={{backgroundColor:"rgba(0, 0, 0, 0.5)",padding:"2rem",height:"100%",width:"100%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
 
       <h1> One Stop Solution For All Your TV Problems</h1>
-      <p>The <span style={{color:"blue",fontWeight:"bold",fontSize:"23px"}}>No.1</span>  TV repair Service in <span style={{color:"blue",fontWeight:"bold",fontSize:"23px"}}> Rajahmundry</span>,  bringing your entertainment back to life.</p>
+      <p>The <span style={{fontWeight:"bold",fontSize:"23px"}}>No.1</span>  TV repair Service in <span style={{fontWeight:"bold",fontSize:"23px"}}> Rajahmundry</span>,  bringing your entertainment back to life.</p>
       <a href="tel:7995716742" className='btn btn1'>Call Now : 7995716742 </a>
 
         </div>

@@ -78,15 +78,15 @@ const Form = () => {
             }}
           >
             <div>
-              <h1 style={{fontSize:"150%"}}>Send us a Message</h1>
+              <h1 style={{fontSize:"150%", color:"blue"}}>Send us a Message</h1>
               <h5 style={{  marginTop: "3rem" ,fontSize:"90%",fontWeight:"500"}}>
               Please feel free to contact us if you have any problems, and we will provide you with the best service.
               </h5>
-              <p
+             <a href="tel:7995716742" > <p
                 style={{ margin: "0", fontSize: "95%", fontWeight: "bold" }}
               >
                 Contact Us: 7995716742, 9640597016
-              </p>
+              </p></a>
               
             </div>
           </div>

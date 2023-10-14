@@ -31,8 +31,9 @@ const Contact = () => {
 
         <div>
           <div className="grid-container1">
-          <a href="mailto:multitechelectronicsrjy@gmail.com">
+          
           <div className="grid-item1">
+
               <h6 style={{ textAlign: "center", fontWeight: "bold" }}>
                 Send us a mail
               </h6>
@@ -47,13 +48,13 @@ const Contact = () => {
                   alt="img"
                   style={{ height: "1rem", marginRight: "0.3rem" }}
                 />
-                <p style={
+              <a href="mailto:multitechelectronicsrjy@gmail.com">  <p style={
                   {fontSize:"0.7rem"}
-                } >multitechelectronicsrjy@gmail.com</p>
+                } >multitechelectronicsrjy@gmail.com</p> </a>
               </div>
             </div>
-            </a>
-            <a href="https://instagram.com/multitech_ledtv_repair?utm_source=qr">  
+            
+              
              <div className="grid-item1">
               <h6 style={{ textAlign: "center", fontWeight: "bold" }}>
                Follow Us 
@@ -69,12 +70,13 @@ const Contact = () => {
                   alt="img"
                   style={{ height: "1rem", marginRight: "0.3rem" }}
                 />
-                <p style={{fontSize:"0.7rem"}}>mutlitech_ledtv_repai</p>
+            <a href="https://instagram.com/multitech_ledtv_repair?utm_source=qr">
+                <p style={{fontSize:"0.7rem"}}>mutlitech_ledtv_repai</p></a>
               </div>
             </div>
-            </a> 
+          
 
-         <a href="https://www.google.com/maps/place/MULTITECH+ELECTRONICS/@16.9943653,81.7760166,15z/data=!4m6!3m5!1s0x3a37a5f412115973:0x9e4f8aa7e14e5e18!8m2!3d16.9943653!4d81.7760166!16s%2Fg%2F11flkbzcc6?entry=ttu">
+         
          <div className="grid-item1">
               <h6 style={{ textAlign: "center", fontWeight: "bold" }}>
                 Visit Us
@@ -90,11 +92,12 @@ const Contact = () => {
                   alt="img"
                   style={{ height: "1rem", marginRight: "0.3rem" }}
                 />
-                <p style={{fontSize:"0.7rem"}}>Location Link: Rajahmundry, 533101</p>
+            <a href="https://www.google.com/maps/place/MULTITECH+ELECTRONICS/@16.9943653,81.7760166,15z/data=!4m6!3m5!1s0x3a37a5f412115973:0x9e4f8aa7e14e5e18!8m2!3d16.9943653!4d81.7760166!16s%2Fg%2F11flkbzcc6?entry=ttu">
+                <p style={{fontSize:"0.7rem"}}>Location Link: Rajahmundry, 533101</p>  </a> 
               </div>
             </div>
-          </a>  
-        <a href="tel:7995716742">
+            
+        
             <div className="grid-item1">
               <h6 style={{ textAlign: "center", fontWeight: "bold" }}>
                 Call Us
@@ -110,10 +113,10 @@ const Contact = () => {
                   alt="img"
                   style={{ height: "1rem", marginRight: "0.3rem" }}
                 />
-                <p style={{fontSize:"0.7rem"}}>+91 7008812287</p>
+             <a href="tel:7995716742"> <p style={{fontSize:"0.7rem"}}>7008812287, 9640597016</p> </a>  
               </div>
             </div>
-            </a>
+           
           </div>
         </div>
       </div>

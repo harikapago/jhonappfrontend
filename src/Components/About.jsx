@@ -62,19 +62,19 @@ const About = () => {
         <div className=' aboutsec2' style={{textAlign:"center"}}> 
         <img style={{width:"80px",height:"80px"}} src={image3}/>
         <h3>Experience</h3>
-        <p>We Specialize in providing Water Proof Packaging of Goods</p>
+        <p>With 10+ years of experience, we're not just fixing screens; we're mending experiences.</p>
         
         </div> 
         <div className=' aboutsec2' style={{textAlign:"center"}}> 
         <img style={{width:"80px",height:"80px"}} src={image1} />
         <h3>Team</h3>
-        <p>Our Professionals will take care of Hassle-Free Loading & Unloading of Goods.</p>
+        <p> We have a dedicated team, working tirelessly to bring the joy back into your living room.</p>
         
         </div> 
         <div className='aboutsec2' style={{textAlign:"center"}}> 
         <img style={{width:"80px",height:"80px"}} src={image2}/>
         <h3>Safe Delivery</h3>
-        <p>We Specialize in providing Water Proof Packaging of Goods</p>
+        <p>We don't just repair TVs; we restore your peace of mind with safe and secure delivery.</p>
         
         </div> 
 
