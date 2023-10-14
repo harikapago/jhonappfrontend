@@ -1,6 +1,8 @@
 .slidebg{
-    background-color: #972239;
-background-image: linear-gradient(315deg, #972239 0%, #db6885 74%);
+    /* background-color: #972239;
+background-image: linear-gradient(315deg, #972239 0%, #db6885 74%); */
+background-color: #738bdc;
+background-image: linear-gradient(315deg, #738bdc 0%, #48c3eb 74%);
 }
 
 

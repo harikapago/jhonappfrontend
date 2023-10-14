@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     return (
     <div className=''>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{position:"absolute",zIndex:100,width:"98.6vw"}} >
+      <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{position:"fixed",zIndex:100,width:"100%"}} >
     <div className="container-fluid">
       <a className="" href="/" style={{color:"black"}}>
         <img src={logo} alt="logo" style={{ width: "3.2rem",height:"2rem",borderRadius:"10px" }} />

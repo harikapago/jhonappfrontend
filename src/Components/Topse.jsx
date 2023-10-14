@@ -30,7 +30,7 @@ const Topse = () => {
   
 
   return (
-    <div id="home">
+    <div id="home" style={{width:"100%"}}>
     <div style={{backgroundImage: `url(${backgroundImageImages[currentImageIndex]})`,color:"white",}} className='topdiv'>
       <div style={{backgroundColor:"rgba(0, 0, 0, 0.5)",padding:"2rem",height:"100%",width:"100%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
 
