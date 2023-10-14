@@ -50,7 +50,10 @@ const Contact = () => {
                 />
               <a href="mailto:multitechelectronicsrjy@gmail.com">  <p style={
                   {fontSize:"0.7rem"}
-                } >multitechelectronicsrjy@gmail.com</p> </a>
+                } >multitechelectroni <br></br>
+                csrjy@gmail.com
+                
+                </p> </a>
               </div>
             </div>
             
@@ -71,7 +74,7 @@ const Contact = () => {
                   style={{ height: "1rem", marginRight: "0.3rem" }}
                 />
             <a href="https://instagram.com/multitech_ledtv_repair?utm_source=qr">
-                <p style={{fontSize:"0.7rem"}}>mutlitech_ledtv_repai</p></a>
+                <p style={{fontSize:"0.7rem"}}>mutlitech_ledtv</p></a>
               </div>
             </div>
           
