@@ -31,7 +31,8 @@ const Contact = () => {
 
         <div>
           <div className="grid-container1">
-            <div className="grid-item1">
+          <a href="mailto:multitechelectronicsrjy@gmail.com">
+          <div className="grid-item1">
               <h6 style={{ textAlign: "center", fontWeight: "bold" }}>
                 Send us a mail
               </h6>
@@ -48,12 +49,14 @@ const Contact = () => {
                 />
                 <p style={
                   {fontSize:"0.7rem"}
-                } >mail id: info@vrnow.ai</p>
+                } >multitechelectronicsrjy@gmail.com</p>
               </div>
             </div>
-            <div className="grid-item1">
+            </a>
+            <a href="https://instagram.com/multitech_ledtv_repair?utm_source=qr">  
+             <div className="grid-item1">
               <h6 style={{ textAlign: "center", fontWeight: "bold" }}>
-                Chat to Support
+               Follow Us 
               </h6>
               <img
                 src={tm2}
@@ -66,10 +69,13 @@ const Contact = () => {
                   alt="img"
                   style={{ height: "1rem", marginRight: "0.3rem" }}
                 />
-                <p style={{fontSize:"0.7rem"}}>mail id: info@vrnow.ai</p>
+                <p style={{fontSize:"0.7rem"}}>mutlitech_ledtv_repai</p>
               </div>
             </div>
-            <div className="grid-item1">
+            </a> 
+
+         <a href="https://www.google.com/maps/place/MULTITECH+ELECTRONICS/@16.9943653,81.7760166,15z/data=!4m6!3m5!1s0x3a37a5f412115973:0x9e4f8aa7e14e5e18!8m2!3d16.9943653!4d81.7760166!16s%2Fg%2F11flkbzcc6?entry=ttu">
+         <div className="grid-item1">
               <h6 style={{ textAlign: "center", fontWeight: "bold" }}>
                 Visit Us
               </h6>
@@ -84,9 +90,11 @@ const Contact = () => {
                   alt="img"
                   style={{ height: "1rem", marginRight: "0.3rem" }}
                 />
-                <p style={{fontSize:"0.7rem"}}>Location Link: Bangalore, Karnataka.</p>
+                <p style={{fontSize:"0.7rem"}}>Location Link: Rajahmundry, 533101</p>
               </div>
             </div>
+          </a>  
+        <a href="tel:7995716742">
             <div className="grid-item1">
               <h6 style={{ textAlign: "center", fontWeight: "bold" }}>
                 Call Us
@@ -105,6 +113,7 @@ const Contact = () => {
                 <p style={{fontSize:"0.7rem"}}>+91 7008812287</p>
               </div>
             </div>
+            </a>
           </div>
         </div>
       </div>
