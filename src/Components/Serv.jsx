@@ -36,30 +36,7 @@ const data = [
     title: 'Title 1',
     description: 'Description for Item 1',
   },
-  {
-    id: 5,
-    image: image5,
-    title: 'Title 2',
-    description: 'Description for Item 2',
-  },
-  {
-    id: 6,
-    image: image6,
-    title: 'Title 3',
-    description: 'Description for Item 3',
-  },
-  {
-    id: 7,
-    image: image5,
-    title: 'Title 2',
-    description: 'Description for Item 2',
-  },
-  {
-    id: 8,
-    image: image6,
-    title: 'Title 3',
-    description: 'With a team of skilled technicians and a commitment to excellence, we have been providing top-notch TV repair solutions for Rajahmundry and the surrounding areas.',
-  },
+  
 ];
 
 function GridItem({ image, title, description }) {

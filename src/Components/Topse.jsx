@@ -20,7 +20,7 @@ const Topse = () => {
       setCurrentImageIndex((prevIndex) =>
         (prevIndex + 1) % backgroundImageImages.length
       );
-    }, 1000); // Change the background image every 1 second (1000 milliseconds)
+    }, 2500); // Change the background image every 1 second (1000 milliseconds)
 
     return () => {
       clearInterval(interval); // Clear the interval when the component unmounts
