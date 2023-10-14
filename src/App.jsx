@@ -13,7 +13,7 @@ import Visit from './Components/Visit'
 
 const App = () => {
   return (
-    <div className='' style={{width:"100%"}}>
+    <div className='' style={{width:"98.6vw"}}>
      <Navbar/>
      <Topse/>
      <About/>
