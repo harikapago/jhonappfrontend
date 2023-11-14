@@ -7,12 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-sitemap": "react-sitemap-generator -u http://multitechelectronics.com -o public/sitemap.xml -i /exclude-path1,/exclude-path2"
   },
   "dependencies": {
+    "firebase": "^10.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.16.0",
+    "react-sitemap-generator": "^1.1.6",
     "swiper": "^9.4.1"
   },
   "devDependencies": {

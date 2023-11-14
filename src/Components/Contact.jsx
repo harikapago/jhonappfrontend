@@ -8,10 +8,16 @@ import tm4 from "../assets/teams/tm4.gif";
 import bt1 from "../assets/teams/bt1.png";
 import bt3 from "../assets/teams/bt3.png";
 import bt4 from "../assets/teams/bt4.png";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
     <div id="contact-us" className="container-fluid " style={{ backgroundColor: "black" }}>
+     <Helmet>
+        <title>TV Repair Rajahmundry</title>
+        <meta name="description" content="Find the best TV repair shops in Rajahmundry for all your TV repair needs." />
+        <meta name="keywords" content="TV repair, Rajahmundry, LED TV repair, LCD TV repair, TV repair shops, rjy" />
+      </Helmet>
       <div
         className="teambg"
         style={{

@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react';
+import { Helmet } from 'react-helmet';
 import image1 from '../assets/team.png';
 import image2 from '../assets/hand.png'; 
 import image3 from '../assets/ex.png'; 
@@ -32,6 +33,11 @@ const About = () => {
 
   return (
     <div  id="AboutUs" style={{padding:"15px",marginTop:"4rem",width:"100%"}}>
+       <Helmet>
+        <title>TV Repair Rajahmundry</title>
+        <meta name="description" content="Find the best TV repair shops in Rajahmundry for all your TV repair needs." />
+        <meta name="keywords" content="TV repair, Rajahmundry, LED TV repair, LCD TV repair, TV repair shops, rjy" />
+      </Helmet>
       <h2 style={{textAlign:"center"}}>About Us</h2>
         <h4 style={{textAlign:"center"}}>Best TV Repair Strore In Rajahmundry</h4>
     <div className='row' style={{padding:"1rem"}} >

@@ -1,6 +1,7 @@
 // src/App.js
 import React from 'react';
 import './styles/serv.css';
+import { Helmet } from 'react-helmet';
 
 import l1 from "../assets/l1.png";
 import l2 from "../assets/l2.jpg";
@@ -40,6 +41,11 @@ const data = [
 function GridItem({ image, title, description }) {
   return (
     <div className="grid-item">
+      <Helmet>
+        <title>TV Repair Rajahmundry</title>
+        <meta name="description" content="Find the best TV repair shops in Rajahmundry for all your TV repair needs." />
+        <meta name="keywords" content="TV repair, Rajahmundry, LED TV repair, LCD TV repair, TV repair shops, rjy" />
+      </Helmet>
       <img src={image} alt={title}  style={{height:"14rem",width:"100%"}}/>
       <h5 style={{width:"100%",marginTop:"10px"}}>{title}</h5>
       <p>{description}</p>

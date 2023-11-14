@@ -1,6 +1,7 @@
 import React from 'react';
 import "./styles/brands.css";
 import img1 from "../assets/brands.jpeg";
+import { Helmet } from 'react-helmet';
 
 const Brands = () => {
   const brandImages = [
@@ -13,6 +14,11 @@ const Brands = () => {
 
   return (
     <div id="brands" style={{padding:"15px",marginTop:"4rem",width:"100%",textAlign:"center"}}>
+       <Helmet>
+        <title>TV Repair Rajahmundry</title>
+        <meta name="description" content="Find the best TV repair shops in Rajahmundry for all your TV repair needs." />
+        <meta name="keywords" content="TV repair, Rajahmundry, LED TV repair, LCD TV repair, TV repair shops, rjy" />
+      </Helmet>
         <h2 style={{fontWeight:"bold"}}>Our Brands</h2>
         <div className='row' style={{justifyContent:"center",alignItems:"center",}}>
    <div className='col-12 col-md-6 '>

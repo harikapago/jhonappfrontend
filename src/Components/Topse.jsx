@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import img1 from "../assets/tv1.jpg";
 import img2 from "../assets/tv2.jpg";
 import img3 from "../assets/tv3.jpg";
@@ -37,6 +38,14 @@ const Topse = () => {
 
   return (
     <div id="home" style={{width:"100%"}}>
+       <Helmet>
+        <title>TV Repair Services in Rajahmundry | No.1 TV Repair - Multitech Electronics</title>
+        <meta name="description" content="One Stop Solution For All Your TV Problems" />
+        <meta name="description" content="Find the best TV repair shops in Rajahmundry for all your TV repair needs." />
+        <meta name="keywords" content="TV repair, Rajahmundry, LED TV repair, LCD TV repair, TV repair shops, rjy" />
+   
+        {/* Add more meta tags as needed */}
+      </Helmet>
     <div style={{backgroundImage: `url(${backgroundImageImages[currentImageIndex]})`,color:"white",}} className='topdiv'>
       <div style={{backgroundColor:"rgba(0, 0, 0, 0.5)",padding:"2rem",height:"100%",width:"100%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
 

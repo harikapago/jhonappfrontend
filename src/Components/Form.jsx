@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import "./styles/form.css";
+import { Helmet } from "react-helmet";
 
 const Form = () => {
 
@@ -53,6 +54,11 @@ const Form = () => {
 
   return (
     <div className="container-fluid formbg" >
+      <Helmet>
+        <title>TV Repair Rajahmundry</title>
+        <meta name="description" content="Find the best TV repair shops in Rajahmundry for all your TV repair needs." />
+        <meta name="keywords" content="TV repair, Rajahmundry, LED TV repair, LCD TV repair, TV repair shops, rjy" />
+      </Helmet>
       <div
         className=""
         style={{
@@ -226,11 +232,11 @@ const Form = () => {
                 </button>
               </div>
             </form>
-            {message && (
+            {/* {message && (
         <div style={{ marginTop: "1rem", color: message.includes("Error") ? "white" : "white" }}>
           {message}
         </div>
-      )}
+      )} */}
           </div>
         </div>
       </div>
